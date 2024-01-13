@@ -1,0 +1,23 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "rebuild": "parcel watch src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "joi": "^17.11.0"
+  }
+}
